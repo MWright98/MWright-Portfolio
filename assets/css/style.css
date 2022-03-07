@@ -10,6 +10,118 @@
       box-sizing: border-box;
     }
   
+header {
+        padding: 20px 35px;
+        background-color: var(--tertiary-color);  
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        background-image: url("../images/hero-bg.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 80%;
+        z-index: 9999;
+}
+    
+header h1 {
+        font-weight: bold;
+        font-size: 36px;
+        color: var(--primary-color);
+        margin: 0;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+      
+header a {
+      text-decoration: none;
+      color: var(--primary-color);
+}
+    
+header nav {
+        margin: 7px 0;
+}
+    
+header nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+}
+    
+header nav ul li a {
+        padding: 10px 15px;
+        font-weight: lighter;
+        font-size: 1.55vw;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* ABOUT SECTION STYLING */
+.about {
+    flex: 2 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about p {
+    flex: 1 60%;
+    margin-left: 50px;
+}
+/* END ABOUT SECTION STYLING */
+
+/* WORK SECTION STYLING */
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.work .main-project {
+    padding: 10 50% 10 50%;
+}
+
+
+.work h2 {
+    float: left;
+}
+
+.project {
+    padding: 10px 15px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* END WORK SECTION STYLING */
+
+
+
+/* CONTACT SECTION STYLING */
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.contact ul li{
+    padding: 10px 15px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* END CONTACT SECTION STYLING */
   section {
     padding: 60px;
   }  
