@@ -136,6 +136,13 @@ header nav ul li a {
     border: 5px solid var(--secondary-color);
     width: 100%;
     margin: 5px 20px 5px 20px;    
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.main-project img:hover {
+    filter: blur(0px);
+  -webkit-filter: blur(0px);
 }
 
 .main-project h3 {
@@ -165,6 +172,13 @@ header nav ul li a {
   min-height: 20%;
   min-width: 50%;
   margin: 5px 20px 5px 20px;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.project img:hover {
+    filter: blur(0px);
+  -webkit-filter: blur(0px);
 }
 
 .project h3 {
