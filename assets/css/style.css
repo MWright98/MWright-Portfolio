@@ -194,7 +194,14 @@ text-decoration: none;
 }
   
 
- 
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resume h2 {
+    text-align: center;
+} 
 
 
 
