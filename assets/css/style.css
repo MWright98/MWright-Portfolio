@@ -14,7 +14,12 @@
 body {
     background-color: var(--background-color);
 }
-    
+
+section {
+    padding: 60px;
+  }  
+
+/* Header Styling */
 header {
         padding: 20px 35px;
         background-color: var(--tertiary-color);  
@@ -63,10 +68,9 @@ header nav ul li a {
         text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-section {
-    padding: 60px;
-  }  
+/* End Header Styling */
 
+/* Styling for Main Content Sections */
 .content-section {
     display: flex;
     margin: 25px 30px;
@@ -82,7 +86,9 @@ section {
     margin-right: 25px;
     padding-right: 20px;
   }
+/* End  Styling for Main Content Sections */
 
+/* About Me Section Styling */
 .about-body {
     display: flex;
     flex-wrap: wrap;
@@ -103,6 +109,10 @@ section {
   shape-outside: circle();
 }
 
+/*END About Me Section Styling */
+
+
+/* Work Section Styling */
 .projects {
     display: flex;
   flex-direction: column;
@@ -139,8 +149,6 @@ section {
     border-radius: 15px;
 }
 
-
-
 .project {
     flex-wrap: wrap;
     display: flex;
@@ -175,7 +183,9 @@ section {
     display: flex;
     justify-content: space-around;
 }
+/* END Work Section Styling */
 
+/* Contact Me Section Styling */
 .contact-info {
     display: flex;
   flex-wrap: wrap;
@@ -192,8 +202,9 @@ text-decoration: none;
   color: var(--primary-color);
   -webkit-text-stroke: 1px var(--tertiary-color);
 }
-  
+/* END Contact Me Section Styling */ 
 
+/* Resume Page Styling */
 .resume {
     display: flex;
     flex-wrap: wrap;
@@ -202,7 +213,7 @@ text-decoration: none;
 .resume h2 {
     text-align: center;
 } 
-
+/* END Resume Page Styling */
 
 
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
